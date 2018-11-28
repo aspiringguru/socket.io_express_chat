@@ -11,8 +11,8 @@ app.use(express.static('public'))
 
 //routes
 app.get('/', (req, res) => {
-  res.send("Hello World")
-	//res.render('index')
+  //res.send("Hello World")
+	res.render('index')
 })
 
 //Listen on port 3000
